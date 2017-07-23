@@ -33,7 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'activestorage', '0.1'
+gem 'activestorage', github: 'rails/activestorage', ref: 'c178de536e6aca386a506dcebda3d427d3d7b487'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
